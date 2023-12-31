@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      display: block;
+      text-align: center;
+    background: rgb(1, 71, 71);
+  }
+  
+  .container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-weight: 700;
+    height: auto;
+    width: 600px;
+    background: #ffffff;
+    border-radius: 12px;
+  }
+  
