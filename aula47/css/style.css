@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkcyan;
+}
+
+.container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 200px;
+  width: 600px;
+  border-radius: 12px;
+}
+
+.temporizador {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+button {
+  border: 1px solid red;
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+}
