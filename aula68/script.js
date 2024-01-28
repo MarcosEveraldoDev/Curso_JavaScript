@@ -17,7 +17,7 @@ Object.defineproperties(define varias propriedades)
 const caneta = { cor: "Azul", ponta: 0.5, marca: "Bic" };
 // copiar o objeto
 const produto = { ...caneta}
-// const produto = Object.assign({} , caneta , {preco : 1g.90});
+// const produto = Object.assign({} , caneta , {preco : 1.90});
 
 for(let prop in produto){
     console.log(prop ,  ": " , produto[prop])
