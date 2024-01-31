@@ -15,6 +15,8 @@ Object.defineproperties(define varias propriedades)
 */
 
 const caneta = { cor: "Azul", ponta: 0.5, marca: "Bic" };
+//congela o objeto
+Object.freeze(caneta);
 // copiar o objeto
 const produto = { ...caneta}
 // const produto = Object.assign({} , caneta , {preco : 1.90});
@@ -22,3 +24,21 @@ const produto = { ...caneta}
 for(let prop in produto){
     console.log(prop ,  ": " , produto[prop])
 }
+console.log('------------------------------------------------');
+
+const produto2 = {nome : "Celular" , marca : "Iphone" , preco : 5000}
+console.log(Object.getOwnPropertyDescriptor(produto2 , 'nome'));
+
+console.log('------------------------------------------------');
+
+
+console.log(Object.keys(produto2));
+
+console.log('------------------------------------------------');
+
+console.log(Object.values(produto2));
+
+console.log('------------------------------------------------');
+
+console.log(Object.entries(produto2));  
+
